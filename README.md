@@ -11,6 +11,6 @@ response json:
     "distance": 251
 }
 
-count: Number of queries performed
+count: number of queries performed
 
 distance: distance in cm
