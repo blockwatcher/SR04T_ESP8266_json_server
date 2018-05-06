@@ -65,8 +65,6 @@ void config_rest_server_routing() {
             "Welcome to the ESP8266 REST Web Server");
     });
     http_rest_server.on("/distance", HTTP_GET, get_distance);
-    //http_rest_server.on("/leds", HTTP_POST, post_put_leds);
-    //http_rest_server.on("/leds", HTTP_PUT, post_put_leds);
 }
 
 
@@ -93,8 +91,6 @@ void setup(void) {
 }
 
 void loop(void) {
-    //sonar.ping_cm()
-    //read_distance();
     http_rest_server.handleClient();
     delay(500);
 }
