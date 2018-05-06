@@ -5,10 +5,12 @@ Sample query:
 curl -i http://your_ip:8080/distance // change to your IP  
 
 response json:
+
 {
     "count": 1,
     "distance": 251
 }
 
 count: Number of queries performed
+
 distance: distance in cm
